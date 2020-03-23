@@ -15,21 +15,12 @@
         "--timeout",
         "999999",
         "--colors",
-        "${workspaceFolder}/test"
+        "${workspaceFolder}/tests.js"
       ],
       "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": [
         "<node_internals>/**"
       ]
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}/.eslintrc.js"
     }
   ]
 }
